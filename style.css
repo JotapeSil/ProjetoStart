@@ -70,17 +70,21 @@ body * {
 }
 
 ul {
+    border: 1px solid red;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 24px 0;
+    padding: 24px 560;
+    justify-content: center;
+    align-items: center;
 
 }
 
 ul li a{
     display: flex;
-    height: 52px;
+    height: 56px;
+    width: 560px;
     justify-content: center;
     align-content: center;
 
