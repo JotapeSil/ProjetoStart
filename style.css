@@ -192,12 +192,13 @@ ul li a:hover {
 
 @keyframes slide-in {
     from {
-        left; 0;
+        left: 0;
     }
     to {
-        left: 50%
+        left: 50%;
     }
 }
+
 @keyframes slide-out {
     from {
         left: 50%;
