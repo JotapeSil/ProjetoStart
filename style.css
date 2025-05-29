@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+        
 }
 
 body {
@@ -48,13 +49,16 @@ body * {
 }
 
 #container {
-    width: 360px;
-    margin: 56px auto 0px
+    width: 100%;
+    margin: 56px auto 0px;
+    padding: 0 24px;
+    
 }
 
 #profile {
     text-align: center;
     padding: 24px;
+
 }
 
 #profile img {
@@ -75,15 +79,14 @@ ul {
     flex-direction: column;
     gap: 16px;
     padding: 24px 0;
-    justify-content: center;
-    align-items: center;
-
+    max-width: 588px;
+    margin: auto;
+    
 }
 
 ul li a{
     display: flex;
-    height: 56px;
-    width: 560px;
+    height: 52px;
     justify-content: center;
     align-content: center;
 
@@ -167,15 +170,3 @@ ul li a:hover {
     border-radius: 9999px;
 
 }
- #image {
-    position:absolute;
-    right: 0;
-    z-index: 1;
- }
-
- #aba {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    max-width: 450px;
-    
- }
